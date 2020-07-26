@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+.warnaBody { background-color: orange; }
+
+
+h1 {
+  margin-top: 25px;
+  color: black;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 8px;
+  /* animation: text 3s; */
+}
+
+h2 {
+  color: black;
+  letter-spacing: 5px;
+  margin: 10px;
+  font-family: 'Bebas Neue', cursive;
+  /* animation: span 3s; */
+}
+
+h4 {
+  font-family: arial;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: red;
+}
+
+@keyframes text {
+  0% {
+    transform: translateX(-500px) ;
+  }
+  100% {
+    transform: translateX(0px);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes span {
+  0% {
+    transform: scale(0);
+    display: block;
+  }
+
+  100% {
+    transform: scale(1);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    display: inline;
+  }
+}
+
+.kotak {
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hasil {
+  background-color: black;
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+
+.hasil h4 {
+  color: white;
+  line-height: 50px;
+}
+
+.merah { background-color: red;}
+.hijau { background-color: green;}
+.biru { background-color: blue;}
+
+.colors {
+  width: 255px;
+  height: 255px;
+  background-color: magenta;
+  margin: 10px auto;
+}
